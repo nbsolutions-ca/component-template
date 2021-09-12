@@ -8,7 +8,9 @@
     "include": [
         "./src",
         "./spec/*.ts",
-        "./spec/**/*.ts"
+        "./spec/*.tsx",
+        "./spec/**/*.ts",
+        "./spec/**/*.tsx"
     ],
     "exclude": [
         "lib",

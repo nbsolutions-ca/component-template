@@ -40,17 +40,23 @@
   },
   "homepage": "https://github.com/nbsolutions-ca/component-template#readme",
   "devDependencies": {
+    "@babel/preset-env": "7.15.6",
+    "@babel/preset-react": "7.14.5",
     "@nbsolutions/eslint-plugin": "1.0.0",
     "@nbsolutions/interfaces": "0.0.0-alpha.0",
     "@nbsolutions/object": "0.0.0-alpha.0",
+    "@testing-library/react": "12.1.0",
     "@types/jest": "27.0.1",
     "@types/react": "17.0.20",
     "@typescript-eslint/eslint-plugin": "4.31.0",
     "@typescript-eslint/parser": "4.31.0",
     "auto-changelog": "2.3.0",
+    "babel-jest": "27.1.1",
     "css-loader": "6.2.0",
     "eslint": "7.32.0",
     "jest": "27.1.1",
+    "react-dom": "17.0.2",
+    "react-test-renderer": "17.0.2",
     "sass": "1.39.2",
     "sass-loader": "12.1.0",
     "style-loader": "3.2.1",
@@ -71,7 +77,7 @@
   "dependencies": {
     "@nbsolutions/logger": "0.0.0-alpha.0",
     "@nbsolutions/version": "0.0.0-alpha.0",
-    "@nbsolutions/view-component": "0.0.0-alpha.2",
+    "@nbsolutions/view-component": "0.0.0-alpha.3",
     "tslib": "2.3.1"
   }
 }
