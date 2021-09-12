@@ -1,6 +1,6 @@
 
 import * as React from 'react';
-import {ViewComponent, IViewComponentProps, IViewComponentState} from '@nbsolutions/view-component';
+import {ViewComponent, IViewComponentProps, IViewComponentState, IUsable} from '@nbsolutions/view-component';
 import styles from './RenameMe.scss';
 
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
@@ -23,14 +23,8 @@ export class RenameMe extends ViewComponent<IRenameMeProps, IRenameMeState> {
         return {};
     }
 
-    public componentDidMount(): void {
-        super.componentDidMount();
-        styles.use();
-    }
-
-    public componentWillUnmount(): void {
-        super.componentWillUnmount();
-        styles.unuse();
+    protected _getUsableStyles(): IUsable {
+        return styles;
     }
 
     public render(): JSX.Element {
